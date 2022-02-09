@@ -28,3 +28,5 @@ app.post('/eventsub', (req, res) => {
         return;
     }
 });
+
+app.listen(3000, () => console.log('Server started!'));
